@@ -1,0 +1,33 @@
+{
+  "name": "secret_bad_guy",
+  "version": "1.0.0",
+  "description": "This is a hobby project. It is not for profit.",
+  "main": "test.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.4",
+    "passport": "^0.4.1",
+    "validator": "^13.5.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrightet/secret_bad_guy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrightet/secret_bad_guy/issues"
+  },
+  "homepage": "https://github.com/wrightet/secret_bad_guy#readme"
+}
