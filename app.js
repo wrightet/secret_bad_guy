@@ -15,10 +15,10 @@ if (process.env.NODE_ENV === 'production') {
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-const passport = require("passport");
+// const passport = require("passport");
 
-app.use(passport.initialize());
-require("./config/passport")(passport);
+// app.use(passport.initialize());
+// require("./config/passport")(passport);
 
 mongoose
     .connect(db, { useNewUrlParser: true })
